@@ -1,0 +1,41 @@
+DetectionResult(detections=[])
+
+DetectionResult(detections=[
+Detection(bounding_box=BoundingBox(origin_x=16, origin_y=81, width=270, height=133), categories=[Category(index=6, score=0.4765625, display_name='', category_name='train')]), 
+Detection(bounding_box=BoundingBox(origin_x=447, origin_y=194, width=75, height=30), categories=[Category(index=2, score=0.45703125, display_name='', category_name='car')]), 
+Detection(bounding_box=BoundingBox(origin_x=414, origin_y=188, width=51, height=33), categories=[Category(index=2, score=0.3515625, display_name='', category_name='car')])])
+
+DetectionResult(detections=[
+Detection(bounding_box=BoundingBox(origin_x=294, origin_y=190, width=104, height=41), categories=[Category(index=2, score=0.80078125, display_name='', category_name='car')]), 
+Detection(bounding_box=BoundingBox(origin_x=415, origin_y=195, width=56, height=26), categories=[Category(index=2, score=0.60546875, display_name='', category_name='car')]), 
+Detection(bounding_box=BoundingBox(origin_x=468, origin_y=196, width=52, height=28), categories=[Category(index=2, score=0.4765625, display_name='', category_name='car')])
+])
+
+print(detection_result.detections[0].categories[0].index)
+print(detection_result.detections[1].categories[0].index)
+
+if detection_result.detections == []:
+
+[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
+
+[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 117.5, 539.0, 473.0, 533.0, 239.0, 178.0, 122.0], 
+[72.0, 45.0, 37.0, 29.0, 29.0, 110.0, 1189.0, 656.5, 721.0, 703.5, 851.5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
+
+[[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 117.5, 539.0, 473.0, 533.0, 239.0, 178.0, 122.0], 
+[72.0, 45.0, 37.0, 29.0, 29.0, 110.0, 1189.0, 656.5, 721.0, 703.5, 851.5, 700.5, 690.5, 516.5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
